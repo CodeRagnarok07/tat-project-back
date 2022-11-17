@@ -1,0 +1,7 @@
+python manage.py dumpdata --exclude=auth --exclude=contenttypes -o ./db/output.json
+python manage.py dumpdata --exclude=auth --exclude=admin --exclude=sessions  --exclude=contenttypes -o ./db/output.json
+
+python manage.py dumpdata -o ./db/output.json
+
+python manage.py loaddata ./db/data.json
+python manage.py loaddata ./db/output.json

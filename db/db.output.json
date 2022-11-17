@@ -1,0 +1,63 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-10-27T23:42:29.590Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Pagina object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-10-27T23:57:56.220Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Pagina object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"seccion\", \"object\": \"Seccion object (1)\"}}]"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "6rng6k9t91dh3y1xnhuwtl3eocmp00q7",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAUBf-FtSEFKg-X7vsNhPtAqgaS0q6M_65NutDtmZnzEjFta4lb5yXOJC5CidPvBgkfXHdA91RvTWKr6zKD3BV50C6nRvy8Hu7fQUm9fGsw3pDNzluNrA1Y1JDPTGMYg1HKOh7doFIKmbJH4x2iGTQ4ghzYkxLvD-Y1OEQ:1ooC2k:zunXpxIJYukt19WwXeC69ElNk-XqTQy8T25xqoOjm48",
+            "expire_date": "2022-11-10T23:12:10.013Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "mj8uzzmd3pw7yqixabc85lw0mcxif25j",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAUBf-FtSEFKg-X7vsNhPtAqgaS0q6M_65NutDtmZnzEjFta4lb5yXOJC5CidPvBgkfXHdA91RvTWKr6zKD3BV50C6nRvy8Hu7fQUm9fGsw3pDNzluNrA1Y1JDPTGMYg1HKOh7doFIKmbJH4x2iGTQ4ghzYkxLvD-Y1OEQ:1opfhw:t5HV5Q5wMcF2C3YHrMfveh86oJ9x7mJ5zXLIY6TT8Bk",
+            "expire_date": "2022-11-15T01:04:48.556Z"
+        }
+    },
+    {
+        "model": "paginas.pagina",
+        "pk": 1,
+        "fields": {
+            "titulo_pagina": "entrada1"
+        }
+    },
+    {
+        "model": "paginas.seccion",
+        "pk": 1,
+        "fields": {
+            "titulo": "Realiza y consulta el estado de tus trámites desde donde te encuentres.",
+            "icono": "",
+            "imagen": "image_1_tcXN6lN.png",
+            "url_source": null,
+            "posicion": 2,
+            "pagina": 1
+        }
+    }
+]

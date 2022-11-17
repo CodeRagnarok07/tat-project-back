@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{% static 'script.js' %}"></script>
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>API Tribunal Tributario</h1>
+
+    <ul>
+        <li><a href="admin/">
+                <h1>Administrador</h1>
+            </a></li>
+        <br>
+        <li><a href="/paginas">paginas</a></li>
+        <li><a href="/nosotros">nosotros</a></li>
+        <li><a href="/publicaciones">publicaciones</a></li>
+        <hr>
+
+        <li><a href="/entradas">
+                <h3>entradas</h3>
+            </a></li>
+
+        <hr>
+        <li><a href="/marco-normativo">
+                <h3>marco normativo</h3>
+            </a></li>
+
+
+
+
+    </ul>
+
+</body>
+
+</html>
